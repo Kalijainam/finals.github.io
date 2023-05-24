@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>upload document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./firebase.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box">
+            <div class="inputbx">
+                <input
+                type="file"
+                class="inputFile"
+                id="upload"
+                onchange="getFile(event)"
+                accept="image/png,image/jpeg"
+            />
+            <label for="upload"class="uploadlabel">
+                <span><i class="fa fa-cloud-upload"></i></span>
+
+
+            </label>
+            <!--<span class="fileText"></span>-->
+            <button onclick="uploadImage()">upload image</button>
+            <div class="bar">
+                <div class="progress"></div>
+            </div> 
+            <div class="uploadPercentage">0%</div>
+            <div class="imageUploaded">
+              <img src="" alt="" class="img"/>
+            </div>
+            <script src="./firebase.js"></script>
+
+
+             </div>
+            
+        </div>
+    </div>
+    
+
+    
+</body>
+</html>

@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 210px;
+    padding: 0;
+    background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  }
+  h1 {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  form.add {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:rgba(245, 245, 245, 0.1); /* Light gray background with 50% opacity */
+    border-radius: 5px;
+    box-shadow:30px 30px 20px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  form.add label {
+    display: block;
+    opacity: 100;
+    margin-bottom: 8px;
+  }
+  form.add .input-box {
+    position: relative;
+  }
+  
+  form.add .input-box .icon {
+    position: absolute;
+    top: 33%;
+    left: 370px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+  }
+
+
+  form.add .input-box1 {
+    position: relative;
+  }
+  
+  form.add .input-box1 .icon {
+    position: absolute;
+    top: 58%;
+    left: 370px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+  }
+
+
+  form.add .input-box2 {
+    position: relative;
+  }
+  
+  form.add .input-box2 .icon {
+    position: absolute;
+    top: 38%;
+    left: 370px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+  }
+
+
+  form.add input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #f2dcdc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    opacity: 0.60;
+  }
+  
+  form.add button {
+    background-color: #0e5dab;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form.add button:hover {
+    background-color: #3b63e7;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button.icon-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  button.icon-close ion-icon {
+    font-size: 20px;
+    color: #ccc;
+  }
+  
+  .login-register {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .login-register p {
+    margin-bottom: 0;
+  }
+  
+  .login-register a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-register a:hover {
+    text-decoration: underline;
+  }
+  
